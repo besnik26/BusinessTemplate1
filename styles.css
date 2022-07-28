@@ -16,6 +16,7 @@ nav{
     top: 0;
     z-index: 1;
     overflow: hidden;
+    background-color: white;
 }
 .nav1{
     display: flex;
@@ -48,11 +49,39 @@ nav{
 }
 .hero{
     margin-top: 53.1px;
-    background-color: aqua;
-    background-image:url(images/herophoto.jpg);
+    /* position: relative; */
     width: 100%;
-    height: auto;
-    /* background-position: center;  */
-    background-repeat: no-repeat; 
-    background-size: cover;
+   
+}
+
+.heromain{
+    position: relative;
+    display: inline-block;
+    /* bottom: 220px;
+    left: 20px; */
+    background-color: black;
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    width: 100%;
+}
+.heromain img{
+    width: 100%;
+    display: block;
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+}
+.caption h2{
+    font-size: 30px;
+    background-color: black;
+    font-style: italic;
+    padding: 8px;
 }
