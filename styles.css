@@ -85,3 +85,23 @@ nav{
     font-style: italic;
     padding: 8px;
 }
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abouttext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abouticons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.abouticons div {
+    text-align: center;
+    padding: 10px;
+}
