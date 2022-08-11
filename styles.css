@@ -6,6 +6,12 @@
     box-sizing: border-box;
     font-family: 'Mukta', sans-serif;
 }
+
+/*
+NAVIGATION  
+*/
+
+
 nav{
     display: flex;
     flex-direction: row;
@@ -47,6 +53,15 @@ nav{
     background-color: black;
     color: white;
 }
+
+
+/*
+HERO
+*/
+
+
+
+
 .hero{
     margin-top: 53.1px;
     /* position: relative; */
@@ -85,6 +100,15 @@ nav{
     font-style: italic;
     padding: 8px;
 }
+
+
+
+/*
+ABOUT 
+*/
+
+
+
 .about{
     display: flex;
     flex-direction: column;
@@ -105,3 +129,60 @@ nav{
     text-align: center;
     padding: 10px;
 }
+.abouticons div img{
+    width: 50px;
+    height: auto;
+}
+
+
+
+/*
+TEAM 
+*/
+
+
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+}
+.teamtext{
+    padding: 30px;
+}
+.teaminfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.teaminfo div {
+    text-align: center;
+    margin: 7px;
+    background-color: white;
+    border: 3px 3px 5px gray;
+}
+
+
+.teamimg{
+    width: 100%;
+}
+.teambutton{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(234, 234, 234);
+    padding: 5px 40px;
+}
+.teambutton:hover{
+    background-color: gray;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 70px;
+    background-color: rgb(99, 99, 99);
+    color: white;
+}
+
+
