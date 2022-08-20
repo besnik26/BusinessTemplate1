@@ -23,6 +23,7 @@ nav{
     z-index: 1;
     overflow: hidden;
     background-color: white;
+    border-bottom: 1.5px solid gray;
 }
 .nav1{
     display: flex;
@@ -146,7 +147,7 @@ TEAM
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(226, 226, 226);
 }
 .teamtext{
     padding: 30px;
@@ -183,6 +184,85 @@ TEAM
     padding: 70px;
     background-color: rgb(99, 99, 99);
     color: white;
+}
+
+
+/*
+WORK
+*/
+
+
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.worktext{
+    text-align: center;
+}
+.workphotos{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-column-gap: 5px;
+	grid-row-gap: 20px;
+    width: 100%;
+    padding: 20px;
+    /* height: auto; */
+    
+}
+.workphotos img{
+    width: auto;
+    height: 530px;
+    
+}
+
+
+
+
+/*
+SKILLS
+*/
+
+
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 80px;
+    background-color: rgb(226, 226, 226);
+}
+.skillstext{
+    padding:0 50px;
+}
+.skillspercentage p{
+    padding: 3px;
+}
+.perc{
+    background-color: gray;
+
+    width: 700px;
+    
+}
+.photographydiv{
+    
+    width: 90%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.webdiv{
+    width: 85%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.photoshopdiv{
+    width: 75%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 
