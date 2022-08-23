@@ -266,3 +266,79 @@ SKILLS
 }
 
 
+
+
+
+/*
+PRICES
+*/
+
+
+
+.price{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: gray;
+    padding: 10px;
+}
+.pricetext{
+    text-align: center;
+    color: white;
+}
+.pricedivs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.plan{
+    
+    background-color: white;
+}
+
+.plan ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    
+}
+.plan ul li{
+    padding: 16px 150px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.pricelisttitles{
+    font-size: 25px;
+}
+.pricelisttitles1{
+    background-color: black;
+    color: white;
+}
+.pricelisttitles2{
+    background-color: red;
+    color: white;
+}
+.pricelisttitles3{
+    background-color: purple;
+    color: white;
+}
+.pricelistnoborder{
+    border-bottom: 0px solid #ddd !important;
+    font-size: 20px;
+}
+.planbutton{
+    background-color:rgb(226, 226, 226); ;
+}
+.planbutton button{
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+    text-decoration: none;
+    border-style: none;
+}
+.planbutton button:hover{
+    background-color: grey;
+
+}
