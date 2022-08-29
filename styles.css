@@ -119,6 +119,7 @@ ABOUT
     display: flex;
     flex-direction: column;
     align-items: center;
+    letter-spacing: 1px;
 }
 .abouticons{
     display: flex;
@@ -151,6 +152,7 @@ TEAM
 }
 .teamtext{
     padding: 30px;
+    letter-spacing: 1px;
 }
 .teaminfo{
     display: flex;
@@ -199,6 +201,7 @@ WORK
 }
 .worktext{
     text-align: center;
+    letter-spacing: 1px;
 }
 .workphotos{
     display: grid;
@@ -235,10 +238,13 @@ SKILLS
 }
 .skillstext{
     padding:0 50px;
+    letter-spacing: 1px;
 }
 .skillspercentage p{
     padding: 3px;
+    letter-spacing: 2px;
 }
+
 .perc{
     background-color: gray;
 
@@ -285,6 +291,7 @@ PRICES
 .pricetext{
     text-align: center;
     color: white;
+    letter-spacing: 1px;
 }
 .pricedivs{
     display: flex;
@@ -342,3 +349,87 @@ PRICES
     background-color: grey;
 
 }
+
+
+
+
+
+/*
+CONTACT
+*/
+
+
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.contacttext{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.contactinfo p {
+    font-size: 23px;
+    letter-spacing: 0.2px;
+}
+.contactform input{
+    width: 100%;
+    padding: 10px;
+}
+.contactform button{
+    width: 19%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+.contactform button:hover{
+    background-color: gray;
+    
+}
+
+
+
+
+
+
+.material-icons{
+    font-size: 35px !important;
+    padding: 0 6px;
+}
+
+
+
+
+
+/*
+FOOTER
+*/
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.footertext{
+    text-align: center;
+}
+.footertext a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 4px 10px;
+
+}
+.footertext a:hover{
+    background-color: gray;
+}
+
+
